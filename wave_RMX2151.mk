@@ -38,3 +38,6 @@ PRODUCT_MANUFACTURER := realme
 # Build info
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
+#Adding maintainer name
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.wave.maintainer=Ksauraj
