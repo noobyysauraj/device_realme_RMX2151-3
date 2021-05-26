@@ -35,6 +35,8 @@ PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme G95 Series
 PRODUCT_MANUFACTURER := realme
 
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys"
+
 # Build info
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
