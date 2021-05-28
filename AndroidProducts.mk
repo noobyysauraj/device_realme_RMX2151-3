@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_RMX2151.mk
+    $(LOCAL_DIR)/descendant_RMX2151.mk
