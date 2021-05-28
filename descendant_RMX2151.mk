@@ -22,17 +22,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/RMX2151/device.mk)
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+$(call inherit-product, vendor/descendant/config/common_full_phone.mk)
 
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-PRODUCT_GENERIC_PROPERTIES += \
-    ro.cherish.maintainer=Mr-Khan007
+# Blur
+TARGET_SUPPORTS_BLUR := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := cherish_RMX2151
+PRODUCT_NAME := descendant_RMX2151
 PRODUCT_DEVICE := RMX2151
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme G95 Series
